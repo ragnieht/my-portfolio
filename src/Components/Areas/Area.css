@@ -51,3 +51,27 @@
 .skills ul {
   display: inline-flex;
 }
+
+.btmLine {
+  width: 35rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon {
+  margin-left: 2rem;
+  color: black;
+  float: right;
+  width: 3rem;
+
+  border-radius: 1rem;
+  background-color: whitesmoke;
+}
+
+.btmLine button {
+  position: relative;
+  float: left;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 2rem;
+}
