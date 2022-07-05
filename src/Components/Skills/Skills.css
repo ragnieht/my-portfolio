@@ -1,0 +1,79 @@
+.skillsContainer img {
+  width: 200px;
+  z-index: 5;
+  position: relative;
+  transition: all 0.5s ease-out;
+}
+.jsLogo img {
+  width: 300px;
+}
+
+.reactLogo img {
+  width: 300px;
+}
+
+.skillsContainer {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14rem;
+}
+
+.skillsContainer p {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 8rem;
+  opacity: 0;
+  position: relative;
+  font-size: 1rem;
+  z-index: 3;
+  transition: all 0.5s ease-out;
+  transition-delay: 0.1s;
+}
+
+.reactLogo:hover img,
+.reduxLogo:hover img,
+.muiLogo:hover img {
+  transform: translateX(-10rem);
+}
+
+.muiLogo:hover p {
+  transform: scale(2) translateX(2rem);
+  opacity: 1;
+}
+.reduxLogo:hover p {
+  transform: scale(2) translateX(1rem);
+  opacity: 1;
+}
+.reactLogo:hover p {
+  transform: scale(2) translateX(1rem);
+  opacity: 1;
+}
+
+.jsLogo:hover img {
+  transform: translateX(-10rem);
+}
+.htmlLogo:hover img,
+.cssLogo:hover img {
+  transform: translateX(-8rem);
+}
+.jsLogo:hover p {
+  transform: scale(2) translateX(1rem);
+  opacity: 1;
+}
+
+.JS {
+  padding-top: 0.8rem;
+}
+.htmlLogo:hover p,
+.cssLogo:hover p {
+  transform: scale(2) translateX(0rem);
+  opacity: 1;
+}
+
+.reactLogo p {
+}

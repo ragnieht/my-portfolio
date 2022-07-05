@@ -1,0 +1,53 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(43, 42, 42);
+  width: 100%;
+  height: 100rem;
+  background-blend-mode: color-dodge;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  margin-top: -15rem;
+  font-family: monospace;
+  color: whitesmoke;
+  font-size: 3rem;
+  padding: 4rem;
+  background-color: rgb(43, 42, 42);
+  border: 5px solid white;
+  border-radius: 1rem;
+}
+.about {
+  border: 1px solid whitesmoke;
+  padding: 1rem;
+  background-color: rgb(71, 71, 71);
+  color: whitesmoke;
+  display: flex;
+  border-radius: 3rem;
+  margin-top: -4rem;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50rem;
+  background-color: whitesmoke;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(43, 42, 42);
+  width: 100vw;
+  padding-right: 21rem;
+}
+
+.skills ul {
+  display: inline-flex;
+}

@@ -1,0 +1,57 @@
+.card {
+  background-color: black;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 20rem;
+  margin-top: -25rem;
+  flex-direction: column;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-left: 2rem;
+}
+.right img {
+  width: 26rem;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.card h1,
+.card p {
+  color: whitesmoke;
+}
+.card li {
+  color: rgb(146, 146, 146);
+}
+
+.actions button {
+  border: 3px solid whitesmoke;
+  color: whitesmoke;
+  background-color: black;
+  padding: 1rem;
+  margin: 1rem;
+  margin-top: 7rem;
+}
+
+.actions {
+  margin-left: -1.5rem;
+}
+
+.actions a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.actions button:hover {
+  transform: translateY(0.5rem);
+}
+.actionWrapper {
+  margin-left: 65rem;
+}
