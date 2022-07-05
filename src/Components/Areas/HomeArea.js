@@ -5,7 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import { Box, Modal, Tooltip } from "@mui/material";
 import { Button } from "antd";
-
+import EmailIcon from "@mui/icons-material/Email";
 const style = {
   position: "fixed",
   left: "50%",
@@ -76,6 +76,9 @@ export default function HomeArea() {
 
         <Tooltip title="+65 96612176" arrow>
           <LocalPhoneIcon id="icon" fontSize="large" />
+        </Tooltip>
+        <Tooltip title="mrtheingar@gmail.com" arrow>
+          <EmailIcon id="icon" fontSize="large" />
         </Tooltip>
       </div>
     </div>
