@@ -1,6 +1,6 @@
 import React from "react";
 import "./Area.css";
-import { FaLinkedin } from "react-icons/fa";
+
 export default function HomeArea() {
   return (
     <div

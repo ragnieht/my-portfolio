@@ -15,18 +15,17 @@ export default function ProjectOne() {
         <div className="actionWrapper">
           <div className="actions">
             <button>
-              {/* <a
-              href="https://github.com/ragnieht/React-Learning/tree/main/shopping-site"
-              target="_blank"
-              rel="noreferrer"
-            >
-              View Site
-            </a> */}{" "}
-              View Site
+              <a
+                href="https://appareal-shopping.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Site
+              </a>
             </button>
             <button>
               <a
-                href="https://github.com/ragnieht/React-Learning/tree/main/shopping-site"
+                href="https://github.com/ragnieht/apparel-site"
                 target="_blank"
                 rel="noreferrer"
               >
