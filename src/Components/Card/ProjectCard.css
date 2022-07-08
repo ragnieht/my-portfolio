@@ -1,18 +1,18 @@
 .card {
   background-color: black;
-  display: inline;
+  display: block;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 20rem;
-  margin-top: -25rem;
+  margin-bottom: 3rem;
   flex-direction: column;
-  margin-left: 5rem;
+  margin-left: 7rem;
   margin-right: 5rem;
   padding-left: 2rem;
 }
 .right img {
-  width: 26rem;
+  width: 22vw;
 }
 
 .left {
@@ -32,12 +32,12 @@
 }
 
 .actions button {
+  position: relative;
+  top: 7rem;
   border: 3px solid whitesmoke;
   color: whitesmoke;
   background-color: black;
   padding: 1rem;
-  margin: 1rem;
-  margin-top: 7rem;
 }
 
 .actions {
@@ -53,5 +53,5 @@
   transform: translateY(0.5rem);
 }
 .actionWrapper {
-  margin-left: 65rem;
+  margin-left: 55rem;
 }

@@ -38,6 +38,8 @@
   width: 100vw;
   height: 50rem;
   background-color: whitesmoke;
+  flex-direction: column;
+  margin-top: -5rem;
 }
 .skills {
   display: flex;
