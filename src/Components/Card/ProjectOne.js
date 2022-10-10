@@ -16,7 +16,7 @@ export default function ProjectOne() {
           <div className="actions">
             <button>
               <a
-                href="https://appareal-shopping.netlify.app/"
+                href="https://apparel-shopping.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
